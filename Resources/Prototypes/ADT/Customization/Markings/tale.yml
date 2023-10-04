@@ -2,7 +2,7 @@
   id: ADTAllsuccubus
   bodyPart: Chest
   markingCategory: Chest
-  sponsorOnly: true
+  sponsorOnly: false
   sprites:
     - sprite: ADT/Customization/Markings/horns/tale.rsi
       state: succubus

@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformAltSecuritySkirt
+  name: alt security skirt
+  description: Damn, it's so short, I can see her stunbaton.
+  components:
+  - type: Sprite
+    sprite: Lust/Clothing/Uniforms/Jumpskirt/altsecskirt.rsi
+  - type: Clothing
+    sprite: Lust/Clothing/Uniforms/Jumpskirt/altsecskirt.rsi

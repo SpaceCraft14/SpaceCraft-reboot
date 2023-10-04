@@ -1,0 +1,29 @@
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: ClothingOuterHardsuitCentcomCarporate
+  name: Скафандр ЦентКом
+  description: Специальный космический костюм ""Корпорат"" сделаный для различных ситуаций и весьма лёгкий в ношении.
+  components:
+  - type: Sprite
+    sprite: Lust/Clothing/OuterClothing/Hardsuits/centcom_corparat.rsi
+  - type: Clothing
+    sprite: Lust/Clothing/OuterClothing/Hardsuits/centcom_corparat.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.5
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.3
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.4
+        Slash: 0.5
+        Piercing: 0.5
+        Radiation: 0.6
+        Caustic: 0.6
+        Heat: 0.4
+  - type: ClothingSpeedModifier
+    walkModifier: 0.85
+    sprintModifier: 0.85
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitCentcomCarporate

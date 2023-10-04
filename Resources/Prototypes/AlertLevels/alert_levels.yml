@@ -4,6 +4,7 @@
   levels:
     green:
       announcement: alert-level-green-announcement
+      sound: /Audio/Misc/green.ogg
       color: Green
       shuttleTime: 1200
     blue:
@@ -13,13 +14,13 @@
       shuttleTime: 600
     violet:
       announcement: alert-level-violet-announcement
-      sound: /Audio/Misc/notice1.ogg
+      sound: /Audio/Misc/violet.ogg
       color: Violet
       emergencyLightColor: Violet
       shuttleTime: 600
     yellow:
       announcement: alert-level-yellow-announcement
-      sound: /Audio/Misc/notice1.ogg
+      sound: /Audio/Misc/yellow.ogg
       color: Yellow
       emergencyLightColor: Goldenrod
       shuttleTime: 600

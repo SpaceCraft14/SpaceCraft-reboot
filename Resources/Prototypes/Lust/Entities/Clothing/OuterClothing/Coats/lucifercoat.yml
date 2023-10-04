@@ -1,0 +1,11 @@
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ClothingOuterCoatLucifer
+  name: Lucifer Coat
+  description: Coat of Lucifer himself, obtained from the underworld of hell.
+  components:
+  - type: Sprite
+    sprite: Lust/Clothing/OuterClothing/Coats/lucifercoat.rsi
+  - type: Clothing
+    sprite: Lust/Clothing/OuterClothing/Coats/lucifercoat.rsi
+  - type: StorageFill

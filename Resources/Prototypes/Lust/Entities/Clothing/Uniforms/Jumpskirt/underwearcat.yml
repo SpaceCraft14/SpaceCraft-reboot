@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformCatUnderwear
+  name: cat underwear
+  description: Hello, little kitten!
+  components:
+  - type: Sprite
+    sprite: Lust/Clothing/Uniforms/Jumpskirt/underwearcat.rsi
+  - type: Clothing
+    sprite: Lust/Clothing/Uniforms/Jumpskirt/underwearcat.rsi

@@ -1,0 +1,29 @@
+- type: entity
+  name: Sharpshooter
+  parent: BaseWeaponRevolver
+  id: WeaponRevolverSharpshooter
+  description: A real sharpshooter made by Qillu.
+  components:
+  - type: Sprite
+    sprite: Lust/Objects/Weapons/Guns/Ultrakill/sharpshooter.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-unshaded-3
+      map: ["enum.GunVisualLayers.MagUnshaded"]
+      shader: unshaded
+  - type: Gun
+    fireRate: 1
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/sharpshooter.ogg
+  - type: RevolverAmmoProvider
+    capacity: 10
+    chambers: [ True, True, True, True, True, True, True, True, True, True ]
+    ammoSlots: [ null, null, null, null, null, null, null, null, null, null ]
+  - type: MagazineVisuals
+    magState: mag
+    steps: 4
+    zeroVisible: true
+  - type: Appearance
+  - type: StaticPrice
+    price: 2000

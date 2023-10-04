@@ -156,7 +156,7 @@
   bodyPart: Head
   markingCategory: Head
   speciesRestriction: [VulpkaninSpecies]
-  sponsorOnly: true
+  sponsorOnly: false
   sprites:
     - sprite: Mobs/Customization/vulpkanin_head.rsi
       state: skull_sponsor

@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformEroticBlackUnderwear
+  name: erotic black underwear
+  description: Oh damn... Shoud it be here?
+  components:
+  - type: Sprite
+    sprite: Lust/Clothing/Uniforms/Jumpskirt/blackerosuit.rsi
+  - type: Clothing
+    sprite: Lust/Clothing/Uniforms/Jumpskirt/blackerosuit.rsi

@@ -1,0 +1,49 @@
+- type: entity
+  parent: BaseItem
+  id: LustDildoHuman
+  name: human dildo
+  description: Just a based human dildo, nothing else. Should I tell you where you can put it?
+  components:
+  - type: Sprite
+    sprite: Lust/Objects/Misc/Dildo/human_dildo.rsi
+    state: icon
+
+- type: entity
+  parent: BaseItem
+  id: LustDildoHorse
+  name: horse dildo
+  description: Kinda big I guess...
+  components:
+  - type: Sprite
+    sprite: Lust/Objects/Misc/Dildo/horse_dildo.rsi
+    state: icon
+
+- type: entity
+  parent: BaseItem
+  id: LustDildoSmall
+  name: small dildo
+  description: Look at this tiny cutie!
+  components:
+  - type: Sprite
+    sprite: Lust/Objects/Misc/Dildo/small_dildo.rsi
+    state: icon
+
+- type: entity
+  parent: BaseItem
+  id: LustDildoKnotted
+  name: knotted dildo
+  description: Looks kinda feral, not gonna lie.
+  components:
+  - type: Sprite
+    sprite: Lust/Objects/Misc/Dildo/knotted_dildo.rsi
+    state: icon
+
+- type: entity
+  parent: BaseItem
+  id: LustDildoPlain
+  name: plain dildo
+  description: How it feels?
+  components:
+  - type: Sprite
+    sprite: Lust/Objects/Misc/Dildo/plain_dildo.rsi
+    state: icon

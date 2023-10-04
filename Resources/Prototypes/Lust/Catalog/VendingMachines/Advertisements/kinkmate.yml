@@ -1,0 +1,8 @@
+- type: advertisementsPack
+  id: KinkMateAds
+  advertisements:
+  - advertisement-kink-1
+  - advertisement-kink-2
+  - advertisement-kink-3
+  - advertisement-kink-4
+  - advertisement-kink-5

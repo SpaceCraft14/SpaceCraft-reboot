@@ -1,23 +1,20 @@
-﻿- type: ttsVoice
+- type: ttsVoice
   id: Aidar
   name: tts-voice-name-aidar
   sex: Male
   speaker: aidar
-#  roundStart: false
 
 - type: ttsVoice
   id: Baya
   name: tts-voice-name-baya
   sex: Unsexed
   speaker: baya
-#  roundStart: false
 
 - type: ttsVoice
   id: Kseniya
   name: tts-voice-name-kseniya
   sex: Female
   speaker: kseniya
-#  roundStart: false
 
 - type: ttsVoice
   id: Xenia
@@ -30,4 +27,36 @@
   name: tts-voice-name-eugene
   sex: Male
   speaker: eugene
-#  roundStart: false
+
+- type: ttsVoice
+  id: Garithos
+  name: tts-voice-name-garithos
+  sex: Male
+  speaker: garithos
+  roundStart: false
+
+- type: ttsVoice
+  id: Maiev
+  name: tts-voice-name-maiev
+  sex: Female
+  speaker: maiev
+  roundStart: false
+
+- type: ttsVoice
+  id: Myron
+  name: tts-voice-name-myron
+  sex: Unsexed
+  speaker: myron
+  roundStart: false
+
+- type: ttsVoice
+  id: Oleg
+  name: tts-voice-name-oleg
+  sex: Male
+  speaker: oleg
+
+- type: ttsVoice
+  id: Zina
+  name: tts-voice-name-zina
+  sex: Female
+  speaker: zina

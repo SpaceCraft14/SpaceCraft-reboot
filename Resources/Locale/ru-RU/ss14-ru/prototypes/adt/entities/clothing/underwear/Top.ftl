@@ -1,7 +1,7 @@
 ent-ClothingUnderwearTopBase = based underweart
     .desc = You should not see this. If you see it, let Neko Dar#8948 know.
 ent-ClothingUnderwearTopBraWhite = bra
-    .desc = Standard Nanotrasen bra for station staff. Painted white.
+    .desc = Standard Qillu bra for station staff. Painted white.
 ent-ClothingUnderwearTopBraSports = sports bra
     .desc = Sports bra. Painted white.
 ent-ClothingUnderwearTopBraSportsAlternative = alternative sports bra

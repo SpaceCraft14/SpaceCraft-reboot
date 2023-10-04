@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformSkirtRedDress
+  name: red dress
+  description: So big and massive red dress. I bet nobody won't wear it.
+  components:
+  - type: Sprite
+    sprite: Lust/Clothing/Uniforms/Jumpskirt/reddress.rsi
+  - type: Clothing
+    sprite: Lust/Clothing/Uniforms/Jumpskirt/reddress.rsi

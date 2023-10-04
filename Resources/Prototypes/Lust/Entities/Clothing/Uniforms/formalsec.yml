@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingOuterCoatSecFormal
+  name: formal security suit
+  description: Was it used in the Reich?
+  components:
+  - type: Sprite
+    sprite: Lust/Clothing/Uniforms/Jumpsuit/secformal.rsi
+  - type: Clothing
+    sprite: Lust/Clothing/Uniforms/Jumpsuit/secformal.rsi
