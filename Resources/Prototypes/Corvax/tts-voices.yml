@@ -33,21 +33,21 @@
   name: tts-voice-name-garithos
   sex: Male
   speaker: garithos
-  roundStart: false
+  roundStart: true
 
 - type: ttsVoice
   id: Maiev
   name: tts-voice-name-maiev
   sex: Female
   speaker: maiev
-  roundStart: false
+  roundStart: true
 
 - type: ttsVoice
   id: Myron
   name: tts-voice-name-myron
   sex: Unsexed
   speaker: myron
-  roundStart: false
+  roundStart: true
 
 - type: ttsVoice
   id: Oleg

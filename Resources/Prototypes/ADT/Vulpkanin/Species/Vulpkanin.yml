@@ -19,8 +19,12 @@
     Head: MobVulpkaninHead
     Hair: MobHumanoidAnyMarking
     FacialHair: MobHumanoidAnyMarking
+    Snout: MobHumanoidAnyMarking
     Chest: MobVulpkaninTorso
-    Eyes: MobVulpkaninEyes
+    HeadTop: MobHumanoidAnyMarking
+    HeadSide: MobHumanoidAnyMarking
+    Tail: MobHumanoidAnyMarking
+    Eyes: MobHumanoidEyes
     LArm: MobVulpkaninLArm
     RArm: MobVulpkaninRArm
     LHand: MobVulpkaninLHand
@@ -29,119 +33,122 @@
     RLeg: MobVulpkaninRLeg
     LFoot: MobVulpkaninLFoot
     RFoot: MobVulpkaninRFoot
-    Tail: MobVulpkaninTail
 
 - type: markingPoints
   id: MobVulpkaninMarkingLimits
-  onlyWhitelisted: true
   points:
     Hair:
       points: 1
       required: false
-    Chest:
+    FacialHair:
       points: 1
       required: false
     Tail:
       points: 1
-      required: false
+      required: true
+      defaultMarkings: [ VulpTail ]
     Head:
-      points: 3
+      points: 1
       required: false
-      
-- type: humanoidBaseSprite
-  id: MobVulpkaninEyes
-  baseSprite:
-    sprite: Mobs/Customization/eyes.rsi
-    state: vulpkanin_eyes_s
-
-- type: humanoidBaseSprite
-  id: MobVulpkaninTail
-  baseSprite:
-    sprite: Mobs/Species/Vulpkanin/parts.rsi
-    state: tail_m
+    Legs:
+      points: 1
+      required: false
+    Arms:
+      points: 1
+      required: false
+    Snout:
+      points: 1
+      required: false
+    HeadTop:
+      points: 1
+      required: true
+      defaultMarkings: [ VulpEar ]
+    Overlay:
+      points: 2
+      required: false
 
 - type: humanoidBaseSprite
   id: MobVulpkaninHead
   baseSprite:
-    sprite: Mobs/Species/Vulpkanin/parts.rsi
+    sprite: DeadSpace/Mobs/Species/Vulpkanin/parts.rsi
     state: head_m
 
 - type: humanoidBaseSprite
   id: MobVulpkaninHeadMale
   baseSprite:
-    sprite: Mobs/Species/Vulpkanin/parts.rsi
+    sprite: DeadSpace/Mobs/Species/Vulpkanin/parts.rsi
     state: head_m
 
 - type: humanoidBaseSprite
   id: MobVulpkaninHeadFemale
   baseSprite:
-    sprite: Mobs/Species/Vulpkanin/parts.rsi
+    sprite: DeadSpace/Mobs/Species/Vulpkanin/parts.rsi
     state: head_f
 
 - type: humanoidBaseSprite
   id: MobVulpkaninTorso
   baseSprite:
-    sprite: Mobs/Species/Vulpkanin/parts.rsi
+    sprite: DeadSpace/Mobs/Species/Vulpkanin/parts.rsi
     state: torso_m
 
 - type: humanoidBaseSprite
   id: MobVulpkaninTorsoMale
   baseSprite:
-    sprite: Mobs/Species/Vulpkanin/parts.rsi
+    sprite: DeadSpace/Mobs/Species/Vulpkanin/parts.rsi
     state: torso_m
 
 - type: humanoidBaseSprite
   id: MobVulpkaninTorsoFemale
   baseSprite:
-    sprite: Mobs/Species/Vulpkanin/parts.rsi
+    sprite: DeadSpace/Mobs/Species/Vulpkanin/parts.rsi
     state: torso_f
 
 - type: humanoidBaseSprite
   id: MobVulpkaninLLeg
   baseSprite:
-    sprite: Mobs/Species/Vulpkanin/parts.rsi
+    sprite: DeadSpace/Mobs/Species/Vulpkanin/parts.rsi
     state: l_leg
-
-- type: humanoidBaseSprite
-  id: MobVulpkaninLArm
-  baseSprite:
-    sprite: Mobs/Species/Vulpkanin/parts.rsi
-    state: l_arm
 
 - type: humanoidBaseSprite
   id: MobVulpkaninLHand
   baseSprite:
-    sprite: Mobs/Species/Vulpkanin/parts.rsi
+    sprite: DeadSpace/Mobs/Species/Vulpkanin/parts.rsi
     state: l_hand
+
+- type: humanoidBaseSprite
+  id: MobVulpkaninLArm
+  baseSprite:
+    sprite: DeadSpace/Mobs/Species/Vulpkanin/parts.rsi
+    state: l_arm
 
 - type: humanoidBaseSprite
   id: MobVulpkaninLFoot
   baseSprite:
-    sprite: Mobs/Species/Vulpkanin/parts.rsi
+    sprite: DeadSpace/Mobs/Species/Vulpkanin/parts.rsi
     state: l_foot
 
 - type: humanoidBaseSprite
   id: MobVulpkaninRLeg
   baseSprite:
-    sprite: Mobs/Species/Vulpkanin/parts.rsi
+    sprite: DeadSpace/Mobs/Species/Vulpkanin/parts.rsi
     state: r_leg
-
-- type: humanoidBaseSprite
-  id: MobVulpkaninRArm
-  baseSprite:
-    sprite: Mobs/Species/Vulpkanin/parts.rsi
-    state: r_arm
 
 - type: humanoidBaseSprite
   id: MobVulpkaninRHand
   baseSprite:
-    sprite: Mobs/Species/Vulpkanin/parts.rsi
+    sprite: DeadSpace/Mobs/Species/Vulpkanin/parts.rsi
     state: r_hand
+
+- type: humanoidBaseSprite
+  id: MobVulpkaninRArm
+  baseSprite:
+    sprite: DeadSpace/Mobs/Species/Vulpkanin/parts.rsi
+    state: r_arm
 
 - type: humanoidBaseSprite
   id: MobVulpkaninRFoot
   baseSprite:
-    sprite: Mobs/Species/Vulpkanin/parts.rsi
+    sprite: DeadSpace/Mobs/Species/Vulpkanin/parts.rsi
     state: r_foot
 
 #

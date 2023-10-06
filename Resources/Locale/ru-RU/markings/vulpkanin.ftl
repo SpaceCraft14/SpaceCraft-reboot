@@ -1,0 +1,17 @@
+marking-ADTVulpkaninaltpointsfadebelly = альт.шерсть, грудь (Лиса)
+marking-ADTVulpkaninbellycrest = крест, грудь
+marking-ADTVulpkanincrestpoints = участки шерсти, грудь
+marking-ADTVulpkaninfoxbelly = пузико, грудь (Лиса)
+marking-ADTVulpkaninfullbelly = пузико, грудь (Вульп)
+marking-ADTVulpkaninpointsfade = градиент лапок, грудь (сломано)
+marking-ADTVulpkaninpointsfadebelly = шерсть, грудь (Лиса)
+marking-ADTVulpkaninsharppoints = крутые лапки, грудь (сломано)
+marking-ADTVulpkaninear = ушки, голова (Шерсть)
+marking-ADTVulpkaninmuzzle = морда, голова (Лиса)
+marking-ADTVulpkaninmuzzleear = морда и ушки, голова (Лиса)
+marking-ADTVulpkaninnose = носик, голова (Вульп)
+marking-ADTVulpkaninpoints_fade = очертания, голова
+marking-ADTVulpkaninpoints_sharp = резкие очертания, голова
+marking-ADTVulpkaninskull_sponsor = морда, голова (Протоген)
+marking-ADTVulpkanintiger_face = полосы тигра, голова (Лицо)
+marking-ADTVulpkanintiger_head = полосы тигра, голова (Голова)
