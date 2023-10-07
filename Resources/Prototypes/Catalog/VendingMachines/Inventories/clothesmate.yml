@@ -100,6 +100,9 @@
     ADTClothingUniformTurleneckWhiteBlackSleeveless: 3
     ADTClothingUniformTurleneckWhiteWomenSleeveless: 3
     ADTClothingNeckGothicCloak: 1
+    ClothingUnderwearBottomPantiesWhite: 5
+    ClothingUnderwearTopBraWhite: 5
+    ClothingUnderwearBottomBoxersWhite: 5
   contrabandInventory:
     ClothingUniformJumpsuitTacticool: 1
     ClothingUniformJumpskirtTacticool: 1
