@@ -6,7 +6,6 @@
   - type: StorageFill
     contents:
       - id: BoxSurvivalMedical
-      - id: JawsOfLife
 
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle

@@ -7,6 +7,8 @@
   components:
     - type: HumanoidAppearance
       species: SharkSpecies
+    - type: Sprite
+      scale: 1.07, 1.07
     - type: Body
       prototype: ADTSharkBody
       requiredLegs: 2
@@ -54,4 +56,3 @@
   components:
     - type: HumanoidAppearance
       species: SharkSpecies
-

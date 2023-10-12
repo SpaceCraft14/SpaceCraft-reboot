@@ -37,7 +37,7 @@
     eyes: ClothingEyesGlassesSecurity
     ears: ClothingHeadsetCentCom
     mask: ClothingMaskGasSecurity
-    jumpsuit: ClothingUniformJumpsuitNanotrasen
+    jumpsuit: ClothingUniformJumpsuitBlueShieldOfficer
     back: ClothingBackpackADTBlueShieldOfficerFilled
     shoes: ClothingShoesBootsCombatFilled
     outerClothing: ADTClothingBlueshieldArmor

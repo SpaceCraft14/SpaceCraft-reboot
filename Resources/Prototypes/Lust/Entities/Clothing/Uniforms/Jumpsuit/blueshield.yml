@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitBlueShieldOfficer
+  name: blue shield officer's jumpsuit
+  description: Blue jumpsuit, special for a "Blue Shield" officers. Looks really stylish, not gonna lie.
+  components:
+  - type: Sprite
+    sprite: Lust/Clothing/Uniforms/Jumpsuit/blueshield.rsi
+  - type: Clothing
+    sprite: Lust/Clothing/Uniforms/Jumpsuit/blueshield.rsi

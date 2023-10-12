@@ -7,6 +7,8 @@
   components:
   - type: HumanoidAppearance
     species: Reptilian
+  - type: Sprite
+    scale: 1.04, 1.04
   - type: Hunger
     starvationDamage:
       types:
