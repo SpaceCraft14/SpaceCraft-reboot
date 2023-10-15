@@ -1,2 +1,2 @@
-ent-MobShark = Плафеим
+ent-MobShark = Ментаг
     .desc = { ent-BaseMobShark.desc }

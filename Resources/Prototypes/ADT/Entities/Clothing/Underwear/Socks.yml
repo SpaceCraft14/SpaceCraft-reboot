@@ -19,7 +19,7 @@
   parent: ClothingUnderwearSocksBase
   id: ClothingUnderwearSocksHigh
   name: high socks
-  description: Nanotrasen high socks for station employees. Painted white.
+  description: Qillu high socks for station employees. Painted white.
   components:
   - type: Sprite
     sprite: Sirena/Clothing/Underwear/Socks/socksknee.rsi
@@ -46,7 +46,7 @@
   parent: ClothingUnderwearSocksBase
   id: ClothingUnderwearSocksNormal
   name: socks
-  description: Standard Nanotrasen socks for station employees. Dyed white.
+  description: Standard Qillu socks for station employees. Dyed white.
   components:
   - type: Sprite
     sprite: Sirena/Clothing/Underwear/Socks/socksnorm.rsi
@@ -55,7 +55,7 @@
   parent: ClothingUnderwearSocksBase
   id: ClothingUnderwearSocksShort
   name: short socks
-  description: Nanotrasen short socks for station employees. Dyed white.
+  description: Qillu short socks for station employees. Dyed white.
   components:
   - type: Sprite
     sprite: Sirena/Clothing/Underwear/Socks/socksshort.rsi
@@ -64,7 +64,7 @@
   parent: ClothingUnderwearSocksBase
   id: ClothingUnderwearSocksThigh
   name: stockings
-  description: Standard Nanotrasen stockings for station employees. Dyed white.
+  description: Standard Qillu stockings for station employees. Dyed white.
   components:
   - type: Sprite
     sprite: Sirena/Clothing/Underwear/Socks/socksthigh.rsi

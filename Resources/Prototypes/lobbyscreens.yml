@@ -33,3 +33,7 @@
 - type: lobbyBackground
   id: LustSpace
   background: /Textures/LobbyScreens/lustspace.png
+
+- type: lobbyBackground
+  id: ExplosiveKiss
+  background: /Textures/LobbyScreens/explosive-kiss.png

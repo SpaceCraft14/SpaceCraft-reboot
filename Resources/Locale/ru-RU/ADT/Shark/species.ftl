@@ -1,1 +1,1 @@
-species-name-Shark = Плафеим
+species-name-Shark = Ментаг
