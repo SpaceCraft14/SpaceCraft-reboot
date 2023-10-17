@@ -1,0 +1,144 @@
+- type: species
+  id: Mentag
+  name: species-name-mentag
+  roundStart: true
+  prototype: MobMentag
+  sprites: MobMentagSprites
+  defaultSkinTone: "#c59d68"
+  markingLimits: MobMentagMarkingLimits
+  dollPrototype: MobMentagDummy
+  skinColoration: Hues
+  maleFirstNames: names_mentag_male
+  femaleFirstNames: names_mentag_female
+  naming: FirstDashFirst
+
+- type: speciesBaseSprites
+  id: MobMentagSprites
+  sprites:
+    Head: MobMentagHead
+    Snout: MobHumanoidAnyMarking
+    Chest: MobMentagTorso
+    HeadTop: MobHumanoidAnyMarking
+    HeadSide: MobHumanoidAnyMarking
+    Tail: MobHumanoidAnyMarking
+    Eyes: MobHumanoidEyes
+    LArm: MobMentagLArm
+    RArm: MobMentagRArm
+    LHand: MobMentagLHand
+    RHand: MobMentagRHand
+    LLeg: MobMentagLLeg
+    RLeg: MobMentagRLeg
+    LFoot: MobMentagLFoot
+    RFoot: MobMentagRFoot
+
+- type: markingPoints
+  id: MobMentagMarkingLimits
+  onlyWhitelisted: true
+  points:
+    Hair:
+      points: 0
+      required: false
+    FacialHair:
+      points: 0
+      required: false
+    Tail:
+      points: 1
+      required: true
+      defaultMarkings: [ MentagTailSmooth ]
+    Snout:
+      points: 1
+      required: false
+    Chest:
+      points: 1
+      required: true
+      defaultMarkings: [ MentagDorsal ]
+    HeadTop:
+      points: 1
+      required: false
+    HeadSide:
+      points: 1
+      required: false
+
+- type: humanoidBaseSprite
+  id: MobMentagHead
+  baseSprite:
+    sprite: Mobs/Species/Mentag/parts.rsi
+    state: head_m
+
+- type: humanoidBaseSprite
+  id: MobMentagHeadMale
+  baseSprite:
+    sprite: Mobs/Species/Mentag/parts.rsi
+    state: head_m
+
+- type: humanoidBaseSprite
+  id: MobMentagHeadFemale
+  baseSprite:
+    sprite: Mobs/Species/Mentag/parts.rsi
+    state: head_f
+
+- type: humanoidBaseSprite
+  id: MobMentagTorso
+  baseSprite:
+    sprite: Mobs/Species/Mentag/parts.rsi
+    state: torso_m
+
+- type: humanoidBaseSprite
+  id: MobMentagTorsoMale
+  baseSprite:
+    sprite: Mobs/Species/Mentag/parts.rsi
+    state: torso_m
+
+- type: humanoidBaseSprite
+  id: MobMentagTorsoFemale
+  baseSprite:
+    sprite: Mobs/Species/Mentag/parts.rsi
+    state: torso_f
+
+- type: humanoidBaseSprite
+  id: MobMentagLLeg
+  baseSprite:
+    sprite: Mobs/Species/Mentag/parts.rsi
+    state: l_leg
+
+- type: humanoidBaseSprite
+  id: MobMentagLHand
+  baseSprite:
+    sprite: Mobs/Species/Mentag/parts.rsi
+    state: l_hand
+
+- type: humanoidBaseSprite
+  id: MobMentagLArm
+  baseSprite:
+    sprite: Mobs/Species/Mentag/parts.rsi
+    state: l_arm
+
+- type: humanoidBaseSprite
+  id: MobMentagLFoot
+  baseSprite:
+    sprite: Mobs/Species/Mentag/parts.rsi
+    state: l_foot
+
+- type: humanoidBaseSprite
+  id: MobMentagRLeg
+  baseSprite:
+    sprite: Mobs/Species/Mentag/parts.rsi
+    state: r_leg
+
+- type: humanoidBaseSprite
+  id: MobMentagRHand
+  baseSprite:
+    sprite: Mobs/Species/Mentag/parts.rsi
+    state: r_hand
+
+- type: humanoidBaseSprite
+  id: MobMentagRArm
+  baseSprite:
+    sprite: Mobs/Species/Mentag/parts.rsi
+    state: r_arm
+
+- type: humanoidBaseSprite
+  id: MobMentagRFoot
+  baseSprite:
+    sprite: Mobs/Species/Mentag/parts.rsi
+    state: r_foot

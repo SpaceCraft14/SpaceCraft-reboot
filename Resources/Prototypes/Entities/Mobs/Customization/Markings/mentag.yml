@@ -1,0 +1,35 @@
+- type: marking
+  id: MentagTailSmooth
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Mentag]
+  sprites:
+  - sprite: Mobs/Customization/mentag_parts.rsi
+    state: smooth_tail
+
+- type: marking
+  id: MentagTailSpiked
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Mentag]
+  sprites:
+  - sprite: Mobs/Customization/mentag_parts.rsi
+    state: spiked_tail
+
+- type: marking
+  id: MentagDorsal
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [Mentag]
+  sprites:
+  - sprite: Mobs/Customization/mentag_parts.rsi
+    state: dorsal
+
+- type: marking
+  id: MentagDoubleDorsal
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [Mentag]
+  sprites:
+  - sprite: Mobs/Customization/mentag_parts.rsi
+    state: double_dorsal

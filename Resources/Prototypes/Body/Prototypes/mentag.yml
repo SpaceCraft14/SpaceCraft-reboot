@@ -1,0 +1,49 @@
+﻿- type: body
+  name: "Mentag"
+  id: Mentag
+  root: torso
+  slots:
+    head:
+      part: HeadMentag
+      connections:
+      - torso
+      organs:
+        brain: OrganHumanBrain
+        eyes: OrganHumanEyes
+    torso:
+      part: TorsoMentag
+      organs:
+        heart: OrganAnimalHeart
+        lungs: OrganHumanLungs
+        stomach: OrganMentagStomach
+        liver: OrganAnimalLiver
+        kidneys: OrganHumanKidneys
+      connections:
+      - left arm
+      - right arm
+      - left leg
+      - right leg
+    right arm:
+      part: RightArmMentag
+      connections:
+      - right hand
+    left arm:
+      part: LeftArmMentag
+      connections:
+      - left hand
+    right hand:
+      part: RightHandMentag
+    left hand:
+      part: LeftHandMentag
+    right leg:
+      part: RightLegMentag
+      connections:
+      - right foot
+    left leg:
+      part: LeftLegMentag
+      connections:
+      - left foot
+    right foot:
+      part: RightFootMentag
+    left foot:
+      part: LeftFootMentag

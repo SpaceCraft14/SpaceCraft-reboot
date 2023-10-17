@@ -6,7 +6,7 @@
   requirements:
     - !type:DepartmentTimeRequirement
       department: Security
-      time: 600000
+      time: 36000
     # - !type:DepartmentTimeRequirement
     #   department: Sponsor
     #   time: 10
@@ -85,8 +85,3 @@
         - state: idlawyer
     - type: PresetIdCard
       job: Magistrat
-
-
-
-
-

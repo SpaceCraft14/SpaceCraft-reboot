@@ -1,0 +1,209 @@
+# TODO: Add descriptions (many)
+# TODO BODY: Part damage
+- type: entity
+  id: PartMentag
+  parent: BaseItem
+  name: "mentag body part"
+  abstract: true
+  components:
+  - type: Damageable
+    damageContainer: Biological
+  - type: BodyPart
+  - type: ContainerContainer
+    containers:
+      bodypart: !type:Container
+        ents: []
+  - type: Tag
+    tags:
+      - Trash
+  juiceSolution:
+    reagents:
+    - ReagentId: Fat
+      Quantity: 3
+    - ReagentId: Blood
+      Quantity: 10
+
+- type: entity
+  id: TorsoMentag
+  name: "mentag torso"
+  parent: PartMentag
+  components:
+  - type: Sprite
+    netsync: false
+    sprite: Mobs/Species/Mentag/parts.rsi
+    state: "torso_m"
+  - type: Icon
+    sprite: Mobs/Species/Mentag/parts.rsi
+    state: "torso_m"
+  - type: BodyPart
+    partType: Torso
+
+- type: entity
+  id: HeadMentag
+  name: "mentag head"
+  parent: PartMentag
+  components:
+  - type: Sprite
+    netsync: false
+    sprite: Mobs/Species/Mentag/parts.rsi
+    state: "head_m"
+  - type: Icon
+    sprite: Mobs/Species/Mentag/parts.rsi
+    state: "head_m"
+  - type: BodyPart
+    partType: Head
+    vital: true
+  - type: Input
+    context: "ghost"
+  - type: Tag
+    tags:
+      - Head
+
+- type: entity
+  id: LeftArmMentag
+  name: "left mentag arm"
+  parent: PartMentag
+  components:
+  - type: Sprite
+    netsync: false
+    sprite: Mobs/Species/Mentag/parts.rsi
+    state: "l_arm"
+  - type: Icon
+    sprite: Mobs/Species/Mentag/parts.rsi
+    state: "l_arm"
+  - type: BodyPart
+    partType: Arm
+    symmetry: Left
+
+- type: entity
+  id: RightArmMentag
+  name: "right mentag arm"
+  parent: PartMentag
+  components:
+  - type: Sprite
+    netsync: false
+    sprite: Mobs/Species/Mentag/parts.rsi
+    state: "r_arm"
+  - type: Icon
+    sprite: Mobs/Species/Mentag/parts.rsi
+    state: "r_arm"
+  - type: BodyPart
+    partType: Arm
+    symmetry: Right
+
+- type: entity
+  id: LeftHandMentag
+  name: "left mentag hand"
+  parent: PartMentag
+  components:
+  - type: Sprite
+    netsync: false
+    sprite: Mobs/Species/Mentag/parts.rsi
+    state: "l_hand"
+  - type: Icon
+    sprite: Mobs/Species/Mentag/parts.rsi
+    state: "l_hand"
+  - type: BodyPart
+    partType: Hand
+    symmetry: Left
+
+- type: entity
+  id: RightHandMentag
+  name: "right mentag hand"
+  parent: PartMentag
+  components:
+  - type: Sprite
+    netsync: false
+    sprite: Mobs/Species/Mentag/parts.rsi
+    state: "r_hand"
+  - type: Icon
+    sprite: Mobs/Species/Mentag/parts.rsi
+    state: "r_hand"
+  - type: BodyPart
+    partType: Hand
+    symmetry: Right
+
+- type: entity
+  id: LeftLegMentag
+  name: "left mentag leg"
+  parent: PartMentag
+  components:
+  - type: Sprite
+    netsync: false
+    sprite: Mobs/Species/Mentag/parts.rsi
+    state: "l_leg"
+  - type: Icon
+    sprite: Mobs/Species/Mentag/parts.rsi
+    state: "l_leg"
+  - type: BodyPart
+    partType: Leg
+    symmetry: Left
+  - type: MovementBodyPart
+    walkSpeed : 2.7
+    sprintSpeed : 4.5
+
+- type: entity
+  id: RightLegMentag
+  name: "right mentag leg"
+  parent: PartMentag
+  components:
+  - type: Sprite
+    netsync: false
+    sprite: Mobs/Species/Mentag/parts.rsi
+    state: "r_leg"
+  - type: Icon
+    sprite: Mobs/Species/Mentag/parts.rsi
+    state: "r_leg"
+  - type: BodyPart
+    partType: Leg
+    symmetry: Right
+  - type: MovementBodyPart
+    walkSpeed : 2.7
+    sprintSpeed : 4.5
+
+- type: entity
+  id: LeftFootMentag
+  name: "left mentag foot"
+  parent: PartMentag
+  components:
+  - type: Sprite
+    netsync: false
+    sprite: Mobs/Species/Mentag/parts.rsi
+    state: "l_foot"
+  - type: Icon
+    sprite: Mobs/Species/Mentag/parts.rsi
+    state: "l_foot"
+  - type: BodyPart
+    partType: Foot
+    symmetry: Left
+#- type: entity
+#  id: BackFinMentag
+#  name: "mentag back fin"
+#  parent: PartMentag
+#  components:
+#  - type: Sprite
+#    netsync: false
+#    sprite: Mobs/Species/Mentag/parts.rsi
+#    state: "fin"
+#  - type: Icon
+#    sprite: Mobs/Species/Mentag/parts.rsi
+#    state: "fin"
+#  - type: BodyPart
+#    partType: Foot
+#    symmetry: Left
+
+- type: entity
+  id: RightFootMentag
+  name: "right mentag foot"
+  parent: PartMentag
+  components:
+  - type: Sprite
+    netsync: false
+    sprite: Mobs/Species/Mentag/parts.rsi
+    state: "r_foot"
+  - type: Icon
+    sprite: Mobs/Species/Mentag/parts.rsi
+    state: "r_foot"
+  - type: BodyPart
+    partType: Foot
+    symmetry: Right

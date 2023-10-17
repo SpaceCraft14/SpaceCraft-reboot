@@ -6,10 +6,10 @@
   requirements:
     - !type:RoleTimeRequirement
       role: JobHeadOfSecurity
-      time: 54000
+      time: 10800
     - !type:RoleTimeRequirement
       role: JobParamedic
-      time: 25200
+      time: 10800
   startingGear: ADTBlueShieldOfficerGear
   icon: "JobIconADTBlueShieldOfficer"
   supervisors: job-supervisors-captain

@@ -536,7 +536,7 @@
     - sprite: DeadSpace/Mobs/Customization/Vulpkanin/body_markings.rsi
       state: belly_fox
 
-# # Body Markings (Overlay)
+# # Body Markings (Overlay) (Убрано из-за нескольких ошибок с наслоением, не возвращай)
 # Eventually layering will allow to have markings on the body not layering above jumpsuits
 # - type: marking
 #   id: VulpBodyPointsCrest

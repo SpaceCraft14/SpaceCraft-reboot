@@ -82,6 +82,17 @@
       collection: Whistles
     Crying:
       collection: MaleCry
+- type: emoteSounds
+  id: UnisexMentag
+  params:
+    variation: 0.125
+  sounds:
+    Scream:
+      path: /Audio/Voice/Reptilian/reptilian_scream.ogg
+    Laugh:
+      path: /Audio/Animals/lizard_happy.ogg
+    Honk:
+      collection: BikeHorn
 
 - type: emoteSounds
   id: MaleSlime

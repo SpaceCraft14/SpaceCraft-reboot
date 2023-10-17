@@ -2,7 +2,8 @@
 - type: weightedRandomSpecies
   id: SpeciesWeights
   weights:
-    Human: 15
+    Human: 5
     Reptilian: 4
     SlimePerson: 4
+    Mentag: 3
     Diona: 2
