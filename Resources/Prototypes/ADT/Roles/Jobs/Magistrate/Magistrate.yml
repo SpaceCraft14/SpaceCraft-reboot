@@ -40,6 +40,9 @@
     neck: ClothingNeckLawyerbadge
     pocket1: RubberStampMagistrat
     pocket2: ADTtelescopicBaton
+    underwearb: ClothingUnderwearBottomBoxersWhite # Sirena-Underwear
+  underweart: ClothingUnderwearTopBraWhite # Sirena-Underwear
+  underwearb: ClothingUnderwearBottomPantiesWhite # Sirena-Underwear
   innerclothingskirt: ClothingUniformJumpsuitLawyerBlack
   satchel: ClothingBackpackSatchel
   duffelbag: ClothingBackpackDuffel

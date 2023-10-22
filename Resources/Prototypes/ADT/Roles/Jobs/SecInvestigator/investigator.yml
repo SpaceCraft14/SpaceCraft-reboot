@@ -3,6 +3,7 @@
   name: job-name-ADTInvestigator
   description: job-description-ADTInvestigator
   playTimeTracker: JobADTInvestigator
+  setPreference: false
   requirements:
   - !type:RoleTimeRequirement
       role: JobWarden

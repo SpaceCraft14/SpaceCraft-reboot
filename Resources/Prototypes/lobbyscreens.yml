@@ -1,24 +1,4 @@
 - type: lobbyBackground
-  id: Robotics
-  background: /Textures/LobbyScreens/robotics.png
-
-- type: lobbyBackground
-  id: Supermatter
-  background: /Textures/LobbyScreens/supermatter.png
-
-- type: lobbyBackground
-  id: Warden
-  background: /Textures/LobbyScreens/warden.png
-
-- type: lobbyBackground
-  id: Pharmacy
-  background: /Textures/LobbyScreens/pharmacy.png
-
-- type: lobbyBackground
-  id: SSXIV
-  background: /Textures/LobbyScreens/ssxiv.png
-
-- type: lobbyBackground
   id: RobusTyanka
   background: /Textures/LobbyScreens/RobusTyanka.png
 
@@ -37,3 +17,11 @@
 - type: lobbyBackground
   id: ExplosiveKiss
   background: /Textures/LobbyScreens/explosive-kiss.png
+
+- type: lobbyBackground
+  id: WardenQm
+  background: /Textures/LobbyScreens/warden_qm.png
+
+- type: lobbyBackground
+  id: Medicine
+  background: /Textures/LobbyScreens/medicine.png
