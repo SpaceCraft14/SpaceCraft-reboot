@@ -13,6 +13,11 @@
     - type: RoarAccent
     - type: Hunger
     - type: Thirst
+    - type: Vocal
+      sounds:
+        Male: UnisexVulp
+        Female: UnisexVulp
+        Unsexed: UnisexVulp
     - type: Icon
       sprite: DeadSpace/Mobs/Species/Vulpkanin/parts.rsi
       state: full

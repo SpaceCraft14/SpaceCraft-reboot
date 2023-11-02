@@ -1,0 +1,22 @@
+- type: entity
+  name: SPAMTON G. SPAMTON
+  parent: PlayerSiliconBase
+  id: Spamton
+  description: WHY BE THE [Little Sponge] WHO HATES ITS [$4.99] LIFE WHEN YOU CAN BE A [BIG SHOT!!!]
+  components:
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: Lust/Fun/Events/spamton.rsi
+    state: spamton
+  - type: Speech
+    speechVerb: Robotic
+    speechSounds: Baritone
+  - type: Vocal
+    sounds:
+      Male: SpamtonEmotes
+      Female: SpamtonEmotes
+      Unsexed: SpamtonEmotes
+  - type: Hands
+  - type: Body
+    prototype: Primate
+    requiredLegs: 1
