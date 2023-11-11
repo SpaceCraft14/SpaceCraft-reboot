@@ -1,0 +1,41 @@
+- type: entity
+  parent: BasePlushie
+  id: PlushieHacksLua # Люблю Хакс <3 <3 <3
+  name: Hacks Lua plushie
+  description: She is the cutest girl in the world, I wanna hug her, I wanna pet her, I want her. Wait what?
+  components:
+  - type: Sprite
+    state: plushie_hackslua
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Items/Toys/frfrfr.ogg
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Items/Toys/frfrfr.ogg
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Items/Toys/frfrfr.ogg
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/Items/Toys/frfrfr.ogg
+
+- type: entity
+  parent: BasePlushie
+  id: PlushieLilaMarrnes # Люблю Лилу <3 <3 <3
+  name: Lila Marrnes plushie
+  description: She is like Hacks, but darker. Frfrfrfrfrfr.
+  components:
+  - type: Sprite
+    state: plushie_lilamarrnes
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Items/Toys/frfrfr.ogg
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Items/Toys/frfrfr.ogg
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Items/Toys/frfrfr.ogg
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/Items/Toys/frfrfr.ogg

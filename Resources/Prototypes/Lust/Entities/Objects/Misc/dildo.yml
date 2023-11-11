@@ -17,9 +17,6 @@
   - type: Sprite
     sprite: Lust/Objects/Misc/Dildo/horse_dildo.rsi
     state: icon
-  - type: MeleeWeapon
-    soundHit:
-      path: /Audio/Lust/Fun/boink.ogg
 
 - type: entity
   parent: BaseItem
